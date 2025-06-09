@@ -1,0 +1,14 @@
+name: Release version
+
+on:
+  push:
+    branches:
+      - main
+      - "push-action/**"
+
+jobs:
+  release:
+    permissions:
+      contents: write
+    uses: jco-digital/jcore-module-actions/.github/workflows/push.yml@v1.0.0
+    secrets: inherit

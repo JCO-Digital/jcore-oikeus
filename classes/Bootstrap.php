@@ -1,6 +1,6 @@
 <?php // phpcs:ignore WordPress.Files.FileName.InvalidClassFileName
 
-namespace Jcore\Template;
+namespace Jcore\Oikeus;
 
 use Jcore\Ydin\BootstrapInterface;
 

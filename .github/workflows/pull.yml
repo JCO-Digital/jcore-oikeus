@@ -4,4 +4,4 @@ on: [pull_request]
 
 jobs:
   build:
-    uses: jco-digital/jcore-module-actions/.github/workflows/pull.yml@v1.0.0
+    uses: jco-digital/jcore-module-actions/.github/workflows/pull.yml@v2.0.0

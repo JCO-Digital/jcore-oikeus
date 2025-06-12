@@ -7,4 +7,4 @@ on:
 jobs:
   label:
     permissions: write-all
-    uses: jco-digital/jcore-module-actions/.github/workflows/label.yml@v1.0.0
+    uses: jco-digital/jcore-module-actions/.github/workflows/label.yml@v2.0.0

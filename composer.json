@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "jcore/ydin": "^3.5"
+    "jcore/ydin": "^3||^4"
   },
   "config": {
     "allow-plugins": {

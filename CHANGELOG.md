@@ -1,3 +1,13 @@
+## [1.0.1](https://github.com/JCO-Digital/jcore-oikeus/compare/v1.0.0...v1.0.1) (2025-11-14)
+
+
+### Bug Fixes
+
+* correct syntax in composer ([b64b76b](https://github.com/JCO-Digital/jcore-oikeus/commit/b64b76bca26af06b9afb973eced65e815e629bbe))
+* update dependency to allow ydin v4 ([5e82c68](https://github.com/JCO-Digital/jcore-oikeus/commit/5e82c68ffefd0402290836ea291c759b71752ea4))
+
+
+
 # [1.0.0](https://github.com/JCO-Digital/jcore-oikeus/compare/v0.2.0...v1.0.0) (2025-06-12)
 
 

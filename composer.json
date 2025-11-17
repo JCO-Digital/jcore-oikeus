@@ -1,6 +1,6 @@
 {
   "name": "jcore/oikeus",
-  "description": "JCORE Module Template repository",
+  "description": "Permissions module for JCORE",
   "type": "library",
   "license": "GPL-2.0-only",
   "autoload": {
@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "jcore/ydin": "^3.5"
+    "jcore/ydin": "^3.5 || ^4"
   },
   "config": {
     "allow-plugins": {

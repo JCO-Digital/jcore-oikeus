@@ -1,34 +1,40 @@
-## [1.0.1](https://github.com/JCO-Digital/jcore-oikeus/compare/v1.0.0...v1.0.1) (2025-11-14)
+# Changelog
 
+## 2.0.0 (2026-09-23)
 
-### Bug Fixes
+#### Bug Fixes
 
-* correct syntax in composer ([b64b76b](https://github.com/JCO-Digital/jcore-oikeus/commit/b64b76bca26af06b9afb973eced65e815e629bbe))
-* update dependency to allow ydin v4 ([5e82c68](https://github.com/JCO-Digital/jcore-oikeus/commit/5e82c68ffefd0402290836ea291c759b71752ea4))
+- close site_admin privilege holes and support ydin v5 (BREAKING CHANGE) (44460be)
 
+#### Continuous Integration
 
+- github: release with foonver and validate with composer (24ced5a)
 
-# [1.0.0](https://github.com/JCO-Digital/jcore-oikeus/compare/v0.2.0...v1.0.0) (2025-06-12)
+### v1.0.1 (2025-11-14)
 
+#### Bug Fixes
 
-### Features
+- correct syntax in composer (b64b76b)
+- update dependency to allow ydin v4 (5e82c68)
 
-* Implement a site admin role with restricted access and capabilities. ✨ ([7d5b448](https://github.com/JCO-Digital/jcore-oikeus/commit/7d5b44871327c33e58dc9422da1a2f96b05f36f7))
+#### Maintenance
 
+- composer update (753b014)
 
-### BREAKING CHANGES
+## v1.0.0 (2025-06-12)
 
-* Release the kraken.
+#### Features
 
+- Implement a site admin role with restricted access and capabilities. ✨ (7d5b448)
 
+## v0.2.0 (2025-06-09)
 
-# [0.2.0](https://github.com/JCO-Digital/jcore-oikeus/compare/d1e48af6792b8aea143cc8179198e8a08f64e63f...v0.2.0) (2025-06-09)
+#### Features
 
+- Update Composer dependencies. (3d87c46)
+- Rename namespace from Template to Oikeus. (d1e48af)
 
-### Features
+#### Misc
 
-* Rename namespace from Template to Oikeus. ([d1e48af](https://github.com/JCO-Digital/jcore-oikeus/commit/d1e48af6792b8aea143cc8179198e8a08f64e63f))
-* Update Composer dependencies. ([3d87c46](https://github.com/JCO-Digital/jcore-oikeus/commit/3d87c466aa9931d1eae7007672bd5cdbf48e7293))
-
-
+- Initial commit (77375d0)
 

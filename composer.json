@@ -1,6 +1,6 @@
 {
   "name": "jcore/oikeus",
-  "description": "JCORE Module Template repository",
+  "description": "JCORE Oikeus: a restricted site_admin role for WordPress.",
   "type": "library",
   "license": "GPL-2.0-only",
   "autoload": {
@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "jcore/ydin": "^3||^4"
+    "jcore/ydin": "^3.5 || ^4 || ^5"
   },
   "config": {
     "allow-plugins": {

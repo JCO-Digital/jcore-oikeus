@@ -1,0 +1,25 @@
+name: Release version
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.MASTER_PAT }}
+
+      - name: Run foonver
+        uses: foonly/foonver@v1.0.0
+        with:
+          push: "true"
+          commit_suffix: "[skip ci]"
+          prerelease: false
